@@ -1,0 +1,11 @@
+{
+  "name": "gemechu_project",
+  "version": "1.0.0",
+  "description": "materinal care and neonatality",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "amanuel full stack developer",
+  "license": "ISC"
+}

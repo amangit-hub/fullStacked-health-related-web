@@ -1,0 +1,97 @@
+<div class="form-container">
+  <form action="" method="post" enctype="multipart/form-data" id="login">
+    <h2>login</h2>
+    <input
+      type="text"
+      name="username"
+      placeholder="username"
+      required
+      class="sign_box"
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="email"
+      required
+      class="sign_box"
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="password"
+      required
+      class="sign_box"
+    />
+
+    <input type="submit" value="Login" class="reg sign_box" />
+    <p>don't have an account ?<a href="#signUp"> create account</a></p>
+  </form>
+</div>
+<div class="form-container">
+  <form
+    id="registrationForm"
+    action=""
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <h2>Welcome Registration Form</h2>
+    <img
+      src="../data/img/avatar.jpeg"
+      alt="Profile Picture"
+      class="pro_picture"
+      id="avatar"
+    />
+    <input
+      type="text"
+      name="FirstName"
+      placeholder="First Name"
+      required
+      class="sign_box"
+    /><box-icon type="solid" name="user"></box-icon>
+    <input
+      type="text"
+      name="LastName"
+      placeholder="Last Name"
+      required
+      class="sign_box"
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Email"
+      required
+      class="sign_box"
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="Password"
+      required
+      class="sign_box"
+      id="password"
+    />
+    <input
+      type="password"
+      name="cpassword"
+      placeholder="Confirm Password"
+      required
+      class="sign_box"
+      id="Condensed"
+    />
+    <p id="validatePass"></p>
+    <input
+      type="file"
+      id="profilePic"
+      name="profilePic"
+      accept="image/*"
+      class="sign_box"
+    />
+    <input
+      type="submit"
+      value="Register"
+      class="reg sign_box"
+      onclick="validatePassword()"
+    />
+    <p>Already have an account? <a href="#login">Login</a></p>
+  </form>
+</div>

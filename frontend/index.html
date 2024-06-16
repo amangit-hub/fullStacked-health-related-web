@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>materinal care</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:tal,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300i;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      "/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+  <body>
+    <div class="conatainer">
+      <header class="header">
+        <div class="top_header">
+                    <a href="#" class="logo"
+                      ><i class="fa fa-medkit" aria-hidden="true"></i>maternity care
+                    </a>
+          <form action="" class="search">
+                  <input
+                    type="search"
+                    id="searchs"
+                    class="search-box"
+                    placeholder="search here..."
+                  />
+                  <label class="search-icon">
+                      <input type="submit" class="search-btn" value="search" id="search" ></input></label>
+          </form>
+                
+          <div class="regfrom">
+
+                 <div class="loginForm">
+                <a href="#" id="showLogin" onclick="loginShowMenu()">login</a>
+                <div class="login-from" id="login-form">
+                   
+                    <form action="" method="post" accept="multipart">
+                  <h4>login form</h4>
+                  <div class="one_two">
+                    <div class="box-1">
+                      <img src="../data/img/vecteezy_colorful-welcome-design-template_10925820.jpg" alt="welcome image" class="welcome"></div>
+                    <div class="box-2">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="email"
+                        required
+                        class="sign_box"
+                      />
+                      <input
+                        type="password"
+                        name="password"
+                        placeholder="password"
+                        required
+                        class="sign_box"
+                      />
+                      <a href="#signUp" class="btn">submit</a>
+                      <p>don't have an account? <a href="#signUp" class="btn p">sign up</a></p>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+            <div class="signUp" >
+              <a href="#login" id="signUp" onclick="signUPshown()" >signUp</a>
+              <div class="login-from" id="open-signUp">
+                <form action="" method="post" accept="multipart">
+                  <h4>welcome to registration form</h4>
+                  <div class="one_two">
+                    <div class="box-1">
+                      <img
+      src="../data/img/avatar.jpeg"
+      alt="Profile Picture"
+      class="pro_picture "
+      id="avatar"
+    />
+                     </div>
+                    <div class="box-2 signfromcss">
+    
+    <input
+      type="text"
+      name="name"
+      placeholder="Name"
+      required
+      class="sign_box"
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Email"
+      required
+      class="sign_box"
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="Password"
+      required
+      class="sign_box"
+      id="password"
+    />
+    <input
+      type="password"
+      name="cpassword"
+      placeholder="Confirm Password"
+      required
+      class="sign_box"
+      id="Condensed"
+    />
+    <p id="validatePass"></p>
+    <input
+      type="file"
+      id="profilePic"
+      name="profilePic"
+      accept="image/*"
+      class="sign_box"
+    />
+    <a href="#" class="btn">register</a>
+  
+    <p>Already have an account? <a href="#login" class="btn">Login</a></p>
+                    </div>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+          
+                    
+                 
+        </div>
+        <div class="bottom_header">
+                    <span class="menu-bars">
+                      <a href="#"><i class='bx bx-menu-alt-right'></i></a>
+                    </span>
+                    
+    
+  <nav class="navbar">
+                      
+          <ul>
+            <li><a href="#home" class="acive">home</a></li>
+            <li><a href="#about" >about</a></li>
+    <li class="menu-children">
+        <a href="#service" >services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="sub-menu grid-menu grid-menu-item ">
+                <div class="grid-item-column">
+                  <h4 class="catagories">pre maternal care</h4>
+                  <ul>
+                    <li class="list-item"><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                  <h4 class="catagories">others</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                </div>
+                <div class="grid-item-column">
+                  <h4 class="catagories">anaternal care</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                    <li><a href="#">maternal-item 6</a></li>
+                    <li><a href="#">maternal-item 7</a></li>
+                  </ul>
+                  <h4 class="catagories">others</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                </div>
+                <div class="grid-item-column">
+                  <h4 class="catagories">post maternal care</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                  <h4 class="catagories">others</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                </div>
+                <div class="grid-item-column">
+                  <h4 class="catagories">mothers health</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                    <li><a href="#">maternal-item 3</a></li>
+                    <li><a href="#">maternal-item 4</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                    <li><a href="#">maternal-item 5</a></li>
+                  </ul>
+                  <h4 class="catagories">others</h4>
+                  <ul>
+                    <li><a href="#">maternal-item 1</a></li>
+                    <li><a href="#">maternal-item 2</a></li>
+                  
+                  </ul>
+                </div>
+            </div>
+    </li>
+            
+            <li>
+              <a href="#conatct" >contact me</a></li>
+              <li class="menu-children">
+              <a href="#support" >support<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <div class="sub-menu one-menu">
+                <ul>
+                  <li class="sub-menu-item">
+                    <a href="#">standard </a>
+  
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#">email</a>
+  
+                  </li>
+                  <li class="sub-menu-item">
+                    <a href="#">paypall account</a>
+  
+                  </li>
+               
+                </ul>
+              </div></li>
+          </ul>
+ </nav>
+            <div>         
+              <labble class="darkMode" id="darkMode"><i class="fa fa-sun-o" aria-hidden="true"></i></labble>
+            </div>
+</div>
+
+          <!-- <div class="left_header">left</div>
+        <div class="middle_header">middle</div>
+        <div class="right_header">right</div> -->
+      </header>
+
+        </div>
+
+
+    
+      
+       
+   
+   
+      <!-- <footer class="footer"></footer>  -->
+
+    <script src="script.js">
+      
+      
+
+ 
+
+    </script>
+  </body>
+</html>

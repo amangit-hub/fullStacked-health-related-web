@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+}
+.navbar > ul > li > a {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+
+  text-decoration: none;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.4s ease;
+}
+.navbar > ul > li .sub-menu {
+  position: absolute;
+  box-shadow: -0.2rem 0.2rem 7rem -2.5rem rgba(0, 0, 0, 0.3);
+  margin-top: 4rem;
+  padding: 2rem 3rem;
+  z-index: 500;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+  border-radius: 1.2rem;
+}
+.navbar > ul > li .sub-menu.grid-menu {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar > ul > li .sub-menu.grid-menu.grid-menu-item {
+  max-width: 120rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.navbar
+  > ul
+  > li
+  .sub-menu.grid-menu.grid-menu-item
+  > .grid-item-column
+  > .catagories {
+  color: rgb(74, 233, 12);
+  font-size: 2.4rem;
+}
+
+.navbar > ul > li .sub-menu.grid-menu.grid-menu-item > .grid-item-column {
+  flex: 0 0 25%;
+  padding: 1rem 2rem;
+}
+.navbar > ul > li .sub-menu.grid-menu > .grid-item-column > ul > li {
+  display: block;
+  line-height: 1.2;
+}
+.navbar > ul > li .sub-menu.grid-menu > .grid-item-column > ul > li > a {
+  padding: 1rem 0;
+}
+.navbar > ul > li.menu-children:hover .sub-menu {
+  margin-top: 3.2rem;
+  visibility: visible;
+  opacity: 1;
+}
+.navbar > ul > li .one-menu {
+  min-width: 28rem;
+  max-width: 35rem;
+}
+.navbar > ul > li .sub-menu > ul > li > a {
+  padding: 1rem 0;
+  display: inline-block;
+  font-size: 2.4rem;
+  color: #110101;
+  list-style: none;
+  text-decoration: none;
+}
